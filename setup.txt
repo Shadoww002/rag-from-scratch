@@ -1,0 +1,26 @@
+rag-from-scratch/
+│
+├── app.py                  # Main file (runs the pipeline)
+│
+├── data/
+│   ├── __init__.py
+│   └── fetch.py            # Download document
+│
+├── preprocessing/
+│   ├── __init__.py
+│   └── chunk.py            # Split document
+│
+├── embeddings/
+│   ├── __init__.py
+│   └── embed.py            # Create embeddings
+│
+├── vectorstore/
+│   ├── __init__.py
+│   └── store.py            # Store & retrieve vectors
+│
+├── generator/
+│   ├── __init__.py
+│   └── answer.py           # QA model
+│
+├── requirements.txt
+└── README.md

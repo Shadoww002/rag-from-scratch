@@ -1,0 +1,9 @@
+Baseline results:
+  Q1 — correct (partial)
+  Q2 — WRONG  (BERT answer was circular)
+  Q3 — correct (partial)
+  Q4 — correct
+  Q5 — WRONG  (vocabulary mismatch — "introduced" vs "proposed")
+
+  Accuracy:  2.5/5
+  Avg score: 0.467
